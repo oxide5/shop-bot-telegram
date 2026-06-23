@@ -29,7 +29,9 @@ Bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
+
 3. Configure Environment Variables:
+
 Create a .env file in the root directory and add your specific credentials:
 
 BOT_TOKEN=your_telegram_bot_token_here
