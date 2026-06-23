@@ -15,6 +15,11 @@ A modular and asynchronous Telegram bot built with Python and `aiogram` 3.x. Thi
 * **Input Validation:** Prevents admins from accidentally sending text when a photo is required, or text when a numerical price is required.
 * **Delete Products:** Admins can view the catalog and selectively delete items with a built-in safety confirmation step (✅ Yes delete / ❌ Cancel).
 
+## Usage
+Standard Users: Send /start to greet the bot and /check_catalog to pull up the dynamic inline menu of all available products.
+
+Administrators: Send /admin from the authorized account (matching the ADMIN_ID in .env). This will unlock the custom reply keyboard to "Add item" or "Delete item".
+
 ## Project Structure
 
 The bot is designed with modularity in mind, separating user and admin routing:
@@ -28,3 +33,4 @@ The bot is designed with modularity in mind, separating user and admin routing:
 │   └── reply.py          # Static reply keyboards and builders
 ├── .env                  # Environment variables (Token, Admin ID)
 └── main.py               # Entry point for the bot (not included in snippets)
+
