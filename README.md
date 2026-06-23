@@ -34,6 +34,7 @@ Create a .env file in the root directory and add your specific credentials:
 
 BOT_TOKEN=your_telegram_bot_token_here
 ADMIN_ID=your_personal_telegram_id
+
 4. Run the bot:
 
 Bash
