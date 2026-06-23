@@ -16,11 +16,13 @@ A modular and asynchronous Telegram bot built with Python and `aiogram` 3.x. Thi
 * **Delete Products:** Admins can view the catalog and selectively delete items with a built-in safety confirmation step (✅ Yes delete / ❌ Cancel).
 
 ## Setup and Installation
+
 1. Clone the repository:
 
 Bash
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-cd your-repo-name
+git clone [https://github.com/oxide5/shop-bot-telegram.git](https://github.com/oxide5/shop-bot-telegram.git)
+cd shop-bot-telegram
+
 2. Create a virtual environment and install dependencies:
 
 Bash
