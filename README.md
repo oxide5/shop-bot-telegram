@@ -15,6 +15,28 @@ A modular and asynchronous Telegram bot built with Python and `aiogram` 3.x. Thi
 * **Input Validation:** Prevents admins from accidentally sending text when a photo is required, or text when a numerical price is required.
 * **Delete Products:** Admins can view the catalog and selectively delete items with a built-in safety confirmation step (✅ Yes delete / ❌ Cancel).
 
+## Setup and Installation
+1. Clone the repository:
+
+Bash
+git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+cd your-repo-name
+2. Create a virtual environment and install dependencies:
+
+Bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+3. Configure Environment Variables:
+Create a .env file in the root directory and add your specific credentials:
+
+BOT_TOKEN=your_telegram_bot_token_here
+ADMIN_ID=your_personal_telegram_id
+4. Run the bot:
+
+Bash
+python main.py
+
 ## Usage
 Standard Users: Send /start to greet the bot and /check_catalog to pull up the dynamic inline menu of all available products.
 
